@@ -18,7 +18,7 @@ def bot():
     responded = False
     
     if 'Hi' in incoming_msg or 'Hey' in incoming_msg or 'Heya' in incoming_msg or 'Menu' in incoming_msg:
-        text = f'Hello 🙋🏽‍♂, \nThis is a Whatapp-Covid-Bot developed by Thirupathi chintu to provide latest information updates i.e cases in different countries and create awareness to help you and your family stay safe.\n For any emergency 👇\n\n Please enter one of the following option 👇 \n *A*. Covid-19 statistics *Worldwide*. \n *B*. Covid-19 cases in *India*. \n *C*. Covid-19 cases in *China*. \n *D*. Covid-19 cases in *USA*. \n *E*. Coronavirus cases in *Italy*. \n *F*. How does it *Spread*? \n *G*. *Preventive measures* to be taken.'
+        text = f'Hello 🙋🏽‍♂, \nThis is a Whatapp-Covid-Bot developed by Thirupathi chintu to provide latest information updates i.e cases in different countries and create awareness to help you and your family stay safe.\n For any emergency 👇\n\n Please enter one of the following option 👇 \n *A*. Covid-19 statistics *Worldwide*. \n *B*. Covid-19 cases in *India*. \n *C*. Covid-19 cases in *China*. \n *D*. Covid-19 cases in *USA*. \n *E*. Coronavirus cases in *Italy*. \n *F*. How does it *Spread*? \n *G*. *Preventive measures* to be taken. This is in development stage for Telangana and other Dists.'
         msg.body(text)
         responded = True
 
