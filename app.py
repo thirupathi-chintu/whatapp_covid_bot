@@ -47,11 +47,10 @@ def bot():
 
     if 'TS' in incoming_msg or 'Telangana' in incoming_msg:
         # return cases in china
-        r = requests.get('https://api.covidindiatracker.com/state_data.json ')
+        r = requests.get('https://api.covidindiatracker.com/state_data.json')
         if r.status_code == 200:
             data = r.json()
-            ts = data[7]
-            text = f'_Covid-19 Cases in Telangana_ \n\nConfirmed Cases : *{ts["confirmed"]}* \n\nActive Cases : *{ts["active"]}* \n\nDeaths : *{ts["deaths"]}* \n\nRecovered : *{ts["recovered"]}* \n\n 👉 Type *WGL* to check cases in *Warangal Urban* \n 👉 Type *IND, TS, WGL, HELP, SPREAD* to see other options \n 👉 Type *Menu* to view the Main Menu'
+            text = f'_Covid-19 Cases in Telangana_ \n\nConfirmed Cases : *{data[7]["confirmed"]}* \n\nActive Cases : *{data[7]["active"]}* \n\nDeaths : *{data[7]["deaths"]}* \n\nRecovered : *{data[7]["recovered"]}* \n\n 👉 Type *WGL* to check cases in *Warangal Urban* \n 👉 Type *IND, TS, WGL, HELP, SPREAD* to see other options \n 👉 Type *Menu* to view the Main Menu'
         else:
             text = 'I could not retrieve the results at this time, sorry.'
         msg.body(text)
