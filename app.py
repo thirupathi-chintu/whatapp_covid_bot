@@ -61,7 +61,7 @@ def bot():
         r = requests.get('https://api.covid19india.org/state_district_wise.json')
         if r.status_code == 200:
             data = r.json()
-            text = f'_Covid-19 Cases in USA_ \n\nConfirmed Cases : *{data["Telangana"]["districtData"]["Warangal Urban"]["confirmed"]}* \n\nActive Cases : *{data["Telangana"]["districtData"]["Warangal Urban"]["active"]}* \n\nRecovered : *{data["Telangana"]["districtData"]["Warangal Urban"]["recovered"]}*   \n\n 👉 Type *WGL* to check cases in *Warangal Urban* \n 👉 Type *IND, TS, WGL, HELP, SPREAD* to see other options \n 👉 Type *Menu* to view the Main Menu'
+            text = f'_Covid-19 Cases in Warangal Urban_ \n\nConfirmed Cases : *{data["Telangana"]["districtData"]["Warangal Urban"]["confirmed"]}* \n\nActive Cases : *{data["Telangana"]["districtData"]["Warangal Urban"]["active"]}* \n\nRecovered : *{data["Telangana"]["districtData"]["Warangal Urban"]["recovered"]}*   \n\n 👉 Type *WGL* to check cases in *Warangal Urban* \n 👉 Type *IND, TS, WGL, HELP, SPREAD* to see other options \n 👉 Type *Menu* to view the Main Menu'
         else:
             text = 'I could not retrieve the results at this time, sorry.'
         msg.body(text)
