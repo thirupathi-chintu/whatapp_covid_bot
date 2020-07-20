@@ -34,7 +34,7 @@ To use this bot click on this [LINK](https://api.whatsapp.com/send?phone=1415523
 
 **Manual Way**
 
-Simply send a WhatsApp message to **(+1) 415523 8886** with code **join shout-daughter**.
+Simply send a WhatsApp message to **(+1) 415523 8886** with code **join give-say**.
 It will show a message saying connected to sandbox.
 Now start talking by saying  **Hi | India | USA | Italy** and it will display the followup chats.
 
