@@ -30,7 +30,7 @@ It also provides some prevention measures inspired from the Government of India 
 
 ## 📝 Usage 
 
-To use this bot click on this [LINK](https://api.whatsapp.com/send?phone=14155238886&text=join%20shout-daughter&source=&data=)
+To use this bot click on this [LINK](https://api.whatsapp.com/send?phone=14155238886&text=join%20give-say&source=&data=)
 
 **Manual Way**
 
